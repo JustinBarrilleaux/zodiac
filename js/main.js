@@ -80,61 +80,63 @@ var month = document.getElementById("month")
 	for(i = 0; i < zodiac.length; i = i + 1){
 
 		if((month.value == 1 && day.value <= 20) || (month.value == 12 && day.value >=22)) {
-
+	document.getElementById("yourSign").textContent = zodiac[3].sign		
     document.getElementById("icon").src = zodiac[3].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[3].fortune
 
   } else if ((month.value == 1 && day.value >= 21) || (month.value == 2 && day.value <= 18)) {
-
+  	document.getElementById("yourSign").textContent = zodiac[0].sign
     document.getElementById("icon").src = zodiac[0].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[0].fortune
 
   } else if((month.value == 2 && day.value >= 19) || (month.value == 3 && day.value <= 20)) {
+  	document.getElementById("yourSign").textContent = zodiac[7].sign
     document.getElementById("icon").src = zodiac[7].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[7].fortune
 
   } else if((month.value == 3 && day.value >= 21) || (month.value == 4 && day.value <= 20)) {
 
+  	document.getElementById("yourSign").textContent = zodiac[1].sign
     document.getElementById("icon").src = zodiac[1].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[1].fortune
 
   } else if((month.value == 4 && day.value >= 21) || (month.value == 5 && day.value <= 20)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[10].sign
     document.getElementById("icon").src = zodiac[10].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[10].fortune
 
   } else if((month.value == 5 && day.value >= 21) || (month.value == 6 && day.value <= 20)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[5].sign
     document.getElementById("icon").src = zodiac[5].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[5].fortune
 
   } else if((month.value == 6 && day.value >= 22) || (month.value == 7 && day.value <= 22)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[2].sign
     document.getElementById("icon").src = zodiac[2].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[2].fortune
 
   } else if((month.value == 7 && day.value >= 23) || (month.value == 8 && day.value <= 23)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[7].sign
     document.getElementById("icon").src = zodiac[7].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[7].fortune
 
   } else if((month.value == 8 && day.value >= 24) || (month.value == 9 && day.value <= 23)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[11].sign
     document.getElementById("icon").src = zodiac[11].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[11].fortune
 
   } else if((month.value == 9 && day.value >= 24) || (month.value == 10 && day.value <= 23)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[6].sign
     document.getElementById("icon").src = zodiac[6].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[6].fortune
 
   } else if((month.value == 10 && day.value >= 24) || (month.value == 11 && day.value <= 22)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[9].sign
     document.getElementById("icon").src = zodiac[9].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[9].fortune
 
   } else if((month.value == 11 && day.value >= 23) || (month.value == 12 && day.value <= 21)) {
-    
+    document.getElementById("yourSign").textContent = zodiac[8].sign
     document.getElementById("icon").src = zodiac[8].image
 	document.getElementById("yourHoroscope").textContent = "You're best attributes are: " + zodiac[8].fortune
 

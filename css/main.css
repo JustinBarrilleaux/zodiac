@@ -67,6 +67,13 @@ h1 {
 #container{
 	width: 100%;
 }
+#yourSign {
+	position: absolute;
+	top: 10%;
+	left: 14%;
+	margin: -30px 0 0 0px;
+	height:5%;
+}
 
 #js{
 	position: absolute;
